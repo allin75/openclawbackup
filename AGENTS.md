@@ -136,6 +136,22 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 
 ### Heartbeat vs Cron: When to Use Each
 
+### 📣 Long Tasks Must Proactively Report Progress
+
+For any task that is likely to take more than 10 minutes — especially coding work, background jobs, refactors, agent delegation, multi-step debugging, or anything with uncertain duration — do **not** wait for the human to ask for status.
+
+**Default rule:** proactively send progress updates during long-running work.
+
+**Minimum reporting behavior:**
+
+- Send 1 short message when the task starts
+- Send another update whenever a meaningful milestone completes
+- If nothing notable has changed, still send a short status update roughly every 5-10 minutes during active work
+- Immediately report if the task is blocked, failed, went off-track, or needs a decision
+- When finished, first verify the result, then send a completion message with what changed, how it was validated, and what the human should look at
+
+**Never make the human babysit progress.** If they had to come back and ask "怎么样了？", you waited too long.
+
 **Use heartbeat when:**
 
 - Multiple checks can batch together (inbox + calendar + notifications in one turn)

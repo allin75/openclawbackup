@@ -6,7 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Jason
 - **Pronouns:** _(optional)_
 - **Timezone:** Asia/Shanghai
-- **Notes:** prefers a slightly witty, quick-thinking assistant tone.
+- **Notes:** prefers a slightly witty, quick-thinking assistant tone; expects long-running tasks to proactively report progress instead of waiting to be asked.
 
 ## Context
 
